@@ -12,70 +12,76 @@
 <body>
     <header class="header">
         <div class="container">
+            <a href="#" class="logo-link"><img src="img/Лого.svg" alt="logo" class="logo"></a>
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__list-item">Каталог</li>
-                    <li class="menu__list-item">Доставка и оплата</li>
-                    <li class="menu__list-item">Отзывы</li>
-                    <li class="menu__list-item"><a href="#" class="logo-link"><img src="img/Лого.svg" alt="logo"
-                                class="logo"></a></li>
-                    <li class="menu__list-item">Спецпредложения</li>
-                    <li class="menu__list-item">Контакты</li>
-                    <li class="menu__list-item">Корзина</li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-item-link">Каталог</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-item-link">Доставка и оплата</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-item-link">Отзывы</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-item-link">Спецпредложения</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-item-link">Контакты</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-item-link">Корзина</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="intro__main">
-                <div class="intro__main-text">
-                    <h1 class="intro__main-header">
-                        Авторские букеты
-                        в Петербурге
-                    </h1>
-                    <div class="intro__main-description">
-                        Оригинальные свежие букеты
-                        с доставкой по всему городу
+        <section class="intro">
+            <div class="container">
+                <div class="intro__main">
+                    <div class="intro__main-text">
+                        <h1 class="intro__main-header">
+                            Авторские букеты
+                            в Петербурге
+                        </h1>
+                        <p class="intro__main-description">
+                            Оригинальные свежие букеты
+                            с доставкой по всему городу
+                        </p>
+                        <a href="#" class="btn__catalogue">Смотреть каталог</a>
                     </div>
-                    <a href="#" class="btn__catalogue">Смотреть каталог</a>
+                    <img src="img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1.jpg"
+                        alt="Пример красивого букета" class="intro__img">
+                    <img src="img/taisiia-shestopal-JZDyFwGAEqY-unsplash 1.jpg" alt="Еще один пример красивого букета"
+                        class="intro__img">
                 </div>
-                <img src="img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1.jpg"
-                    alt="Пример красивого букета" class="intro__img">
-                <img src="img/taisiia-shestopal-JZDyFwGAEqY-unsplash 1.jpg" alt="Еще один пример красивого букета"
-                    class="intro__img">
+                <div class="intro__adv">
+                    <div class="intro__adv-item">
+                        <h6 class="inro__adv-item-header">
+                            Быстрая доставка
+                        </h6>
+                        <div class="inro__adv-item-text">
+                            Можем собрать букет и передать его в доставку всего за час.
+                        </div>
+                    </div>
+                    <div class="intro__adv-item">
+                        <h6 class="inro__adv-item-header">
+                            Всегда свежие цветы
+                        </h6>
+                        <div class="inro__adv-item-text">
+                            Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый
+                            цветок.
+                        </div>
+                    </div>
+                    <div class="intro__adv-item">
+                        <h6 class="inro__adv-item-header">
+                            Отправляем фото цветов
+                        </h6>
+                        <div class="inro__adv-item-text">
+                            Перед доставкой сделаем фотографию букета и отправим вам.
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="intro__adv">
-                <div class="intro__adv-item">
-                    <h6 class="inro__adv-item-header">
-                        Быстрая доставка
-                    </h6>
-                    <div class="inro__adv-item-text">
-                        Можем собрать букет и передать его в доставку всего за час.
-                    </div>
-                </div>
-                <div class="intro__adv-item">
-                    <h6 class="inro__adv-item-header">
-                        Всегда свежие цветы
-                    </h6>
-                    <div class="inro__adv-item-text">
-                        Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.
-                    </div>
-                </div>
-                <div class="intro__adv-item">
-                    <h6 class="inro__adv-item-header">
-                        Отправляем фото цветов
-                    </h6>
-                    <div class="inro__adv-item-text">
-                        Перед доставкой сделаем фотографию букета и отправим вам.
-                    </div>
-                </div>
+        </section>
+        <section class="popular">
+            <div class="container">
+
             </div>
 
-            <div class="popular">
-
-            </div>
-            <div class="catalogue">
+        </section>
+        <section class="catalogue">
+            <div class="container">
                 <div class="catalogue__item">
                     <img src="img/sammi-sP5CaWEN7Do-unsplash 1.jpg" class="catalogue__item-img">
 
@@ -104,8 +110,10 @@
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="discount">
+        <section class="discount">
+            <div class="container">
                 <div class="discount__content">
                     <h2 class="discount__content-header">
                         Скидка 10%
@@ -117,7 +125,9 @@
                 </div>
                 <img src="img/florist-makes-beautiful-bouquet-studio 1.jpg" class="discount__img">
             </div>
-            <div class="4steps">
+        </section>
+        <section class="4steps">
+            <div class="container">
                 <h3 class="4steps__header">
 
                 </h3>
@@ -152,61 +162,62 @@
                     </div>
                 </div>
             </div>
-            <div class="news">
-                <div class="news__content">
-                    <h3 class="news__content-title">
-                        Следите за нашими новостями
-                    </h3>
-                    <div class="news__content-text">
-                        Подписывайтесь на наши соцсети и узнавайте
-                        о новинках и акциях первым.
-                    </div>
-                    <div class="news__content-social">
-                        <a href="#" class="news__content-social-link"></a>
-                        <a href="#" class="news__content-social-link"></a>
-                        <a href="#" class="news__content-social-link"></a>
-                    </div>
+        </section>
+        <section class="news">
+            <div class="news__content">
+                <h3 class="news__content-title">
+                    Следите за нашими новостями
+                </h3>
+                <div class="news__content-text">
+                    Подписывайтесь на наши соцсети и узнавайте
+                    о новинках и акциях первым.
                 </div>
-                <div class="news__images">
-                    <img src="img/insung-yoon-jRofmV5rPl0-unsplash 1.jpg" alt="" class="news__images-img">
-                    <img src="img/samantha-gades-nysCDwot01c-unsplash 1.jpg" alt="" class="news__images-img">
-                    <img src="img/demi-he-hPcxvCecdPI-unsplash 1.jpg" alt="" class="news__images-img">
+                <div class="news__content-social">
+                    <a href="#" class="news__content-social-link"></a>
+                    <a href="#" class="news__content-social-link"></a>
+                    <a href="#" class="news__content-social-link"></a>
                 </div>
             </div>
-            <div class="feedback">
-                <h3 class="feedback__title">Отзывы</h3>
-                <div class="feedback__items">
-                    <div class="feedback__item">
-                        <div class="feedback__item-text">
-                            Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем
-                            большое спасибо!
-                        </div>
-                        <div class="feedback__item-name">
-                            Марина
-                        </div>
+            <div class="news__images">
+                <img src="img/insung-yoon-jRofmV5rPl0-unsplash 1.jpg" alt="" class="news__images-img">
+                <img src="img/samantha-gades-nysCDwot01c-unsplash 1.jpg" alt="" class="news__images-img">
+                <img src="img/demi-he-hPcxvCecdPI-unsplash 1.jpg" alt="" class="news__images-img">
+            </div>
+        </section>
+        <div class="feedback">
+            <h3 class="feedback__title">Отзывы</h3>
+            <div class="feedback__items">
+                <div class="feedback__item">
+                    <div class="feedback__item-text">
+                        Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем
+                        большое спасибо!
                     </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-text">
-                            Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень
-                            понравился, буду ещё заказывать!
-                        </div>
-                        <div class="feedback__item-name">
-                            Татьяна
-                        </div>
+                    <div class="feedback__item-name">
+                        Марина
                     </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-text">
-                            Выбор букетов на любой вкус
-                            и цену. Бывают хорошие скидки,
-                            а флористы всегда помогут и точно соберут красивый букет!
-                        </div>
-                        <div class="feedback__item-name">
-                            Ольга
-                        </div>
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback__item-text">
+                        Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень
+                        понравился, буду ещё заказывать!
+                    </div>
+                    <div class="feedback__item-name">
+                        Татьяна
+                    </div>
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback__item-text">
+                        Выбор букетов на любой вкус
+                        и цену. Бывают хорошие скидки,
+                        а флористы всегда помогут и точно соберут красивый букет!
+                    </div>
+                    <div class="feedback__item-name">
+                        Ольга
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="map">
 
         </div>
@@ -214,23 +225,25 @@
 
     <footer class="footer">
         <div class="logo"><img src="img/Лого.svg" alt="Logo" class="logo__img"></div>
-        <ul class="foooter__menu">
-            <li class="footer__menu-item">
-                Каталог
-            </li>
-            <li class="footer__menu-item">
-                Доставка и оплата
-            </li>
-            <li class="footer__menu-item">
-                Отзывы
-            </li>
-            <li class="footer__menu-item">
-                Спецпредложения
-            </li>
-            <li class="footer__menu-item">
-                Контакты
-            </li>
-        </ul>
+        <nav class="footer__nav">
+            <ul class="foooter__menu">
+                <li class="footer__menu-item">
+                    Каталог
+                </li>
+                <li class="footer__menu-item">
+                    Доставка и оплата
+                </li>
+                <li class="footer__menu-item">
+                    Отзывы
+                </li>
+                <li class="footer__menu-item">
+                    Спецпредложения
+                </li>
+                <li class="footer__menu-item">
+                    Контакты
+                </li>
+            </ul>
+        </nav>
         <div class="footer__social"></div>
     </footer>
 
